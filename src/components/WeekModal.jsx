@@ -15,7 +15,7 @@ const WeekModal = ({ onSaveWeek }) => {
 
   return (
     <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
-      <div className="bg-white rounded-lg shadow-lg p-6 max-w-md w-full">
+      <div className="bg-white rounded-lg shadow-lg p-6 max-w-md md:max-w-[550px] w-full">
         <h2 className="text-lg font-semibold text-zinc-800 mb-4">
           Select Week
         </h2>
