@@ -21,25 +21,25 @@ const WeekModal = ({ onSaveWeek }) => {
         </h2>
         <div className="flex justify-between mb-4">
           <button
-            className={`text-sm py-2 px-6 rounded-lg ${selectedWeek === "Week 1" ? 'bg-blue-300' : 'bg-gray-200'}`}
+            className={`text-sm py-2 px-6 mx-1 rounded-lg ${selectedWeek === "Week 1" ? 'bg-blue-300' : 'bg-gray-200'}`}
             onClick={() => handleWeekClick("Week 1")}
           >
             Week 1
           </button>
           <button
-            className={`text-sm py-2 px-6 rounded-lg ${selectedWeek === "Week 2" ? 'bg-blue-300' : 'bg-gray-200'}`}
+            className={`text-sm py-2 mx-1 px-6 rounded-lg ${selectedWeek === "Week 2" ? 'bg-blue-300' : 'bg-gray-200'}`}
             onClick={() => handleWeekClick("Week 2")}
           >
             Week 2
           </button>
           <button
-            className={`text-sm py-2 px-6 rounded-lg ${selectedWeek === "Week 3" ? 'bg-blue-300' : 'bg-gray-200'}`}
+            className={`text-sm py-2 px-6 mx-1 rounded-lg ${selectedWeek === "Week 3" ? 'bg-blue-300' : 'bg-gray-200'}`}
             onClick={() => handleWeekClick("Week 3")}
           >
             Week 3
           </button>
           <button
-            className={`text-sm py-2 px-6 rounded-lg ${selectedWeek === "Week 4" ? 'bg-blue-300' : 'bg-gray-200'}`}
+            className={`text-sm py-2 mx-1 px-6 rounded-lg ${selectedWeek === "Week 4" ? 'bg-blue-300' : 'bg-gray-200'}`}
             onClick={() => handleWeekClick("Week 4")}
           >
             Week 4
