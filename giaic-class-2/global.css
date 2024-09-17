@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.header .logo img{
+    width: 80px;;
+}
+
+.header .navbar ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.header .navbar ul li a:hover{
+    color: yellow;
+}
+
+.header .hearder-btn button{
+    padding: 16px 30px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 15px;
+   
+}
+
+.header .hearder-btn button:hover{
+    background-color: yellow;
+    color: red;
+}
