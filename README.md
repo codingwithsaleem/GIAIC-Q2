@@ -1,8 +1,7 @@
-# React + Vite
+# proto figma design:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://www.figma.com/proto/t55J9bnjqyVBKiGHYDyFGy/Dummy-Meal-data-(Strugbits-Developer-Test)?node-id=1-2904&starting-point-node-id=1%3A2904
 
-Currently, two official plugins are available:
+# live URL:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://strugbits-task-jade.vercel.app/
